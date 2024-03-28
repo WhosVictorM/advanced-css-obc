@@ -7,10 +7,15 @@
 .container {
     background-color: darkgray;
     min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    gap: 10px 15px;
+    grid-auto-rows: minmax(210px, auto);
 }
 
 .item {
     border: 2px solid black;
     background-color: #fff;
     font-size: 30px;
+    padding: 10px;
 }
